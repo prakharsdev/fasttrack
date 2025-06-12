@@ -10,7 +10,8 @@ The project is fully containerized to support reproducibility, CI/CD integration
 
 ## System Architecture Diagram
 
-![Publisher Golang](https://github.com/user-attachments/assets/5d555ff4-deac-48a9-b8e7-11b4c8ec2ce5)
+![Publisher Golang](https://github.com/user-attachments/assets/5c01ee4b-accb-492f-9e71-ba0ec8c33bf7)
+
 
 ---
 
