@@ -10,11 +10,7 @@ The project is fully containerized to support reproducibility, CI/CD integration
 
 ## System Architecture Diagram
 
-┌────────────┐       ┌────────────┐       ┌─────────────┐       ┌──────────┐
-│  Publisher │ ───▶ │  RabbitMQ   │ ───▶ │  Consumer   │ ───▶ │  MySQL DB │
-└────────────┘       └────────────┘       └─────────────┘       └──────────┘
-      │                   │                  │                     │
-      └──── Docker Compose based fully isolated developer stack ───┘
+![Editor _ Mermaid Chart-2025-06-12-052747](https://github.com/user-attachments/assets/2380df43-6f32-450b-a75b-4350e7fe6c60)
 
 ---
 
