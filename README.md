@@ -217,7 +217,7 @@ One of my priorities was to ensure resilience during temporary service outages, 
 
 * Both RabbitMQ and MySQL connection logic implement retry loops with exponential backoff.
 * Startup retries ensure that transient network failures don’t bring down the entire system immediately.
-* After exhausting retries, the app fails gracefully — allowing orchestrators (like Kubernetes or ECS) to handle restarts.
+* After exhausting retries, the app fails gracefully, allowing orchestrators (like Kubernetes or ECS) to handle restarts.
 
 This pattern is something I've seen work reliably when designing cloud-native ingestion systems.
 
