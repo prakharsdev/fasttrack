@@ -7,7 +7,7 @@ This project implements a complete data ingestion pipeline using **Golang**, **R
 The project is fully containerized to support reproducibility, CI/CD integration, and easy handover across teams. The structure strictly follows a modular approach following Golang standards.
 
 ---
-## Full Project Walkthrough
+## Full Project Walkthrough Video
 [![Demo video](https://github.com/user-attachments/assets/8004f6b5-1c7e-47a7-a4d6-d6e0cb792a86)](https://www.youtube.com/watch?v=CTcacBqbB2Q)
 ---
 ## System Architecture Diagram
