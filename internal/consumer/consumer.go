@@ -11,6 +11,8 @@ import (
 	"github.com/streadway/amqp"
 )
 
+const MySQLDuplicateEntryCode = 1062
+
 // Payment represents the payment message structure
 type Payment struct {
 	UserID        int `json:"user_id"`
@@ -58,7 +60,7 @@ func isDuplicateKeyError(err error) bool {
 		return false
 	}
 	if mysqlErr, ok := err.(*mysql.MySQLError); ok {
-		return mysqlErr.Number == 1062
+		return mysqlErr.Number == MySQLDuplicateEntryCode
 	}
 	// fallback generic detection
 	return strings.Contains(err.Error(), "Error 1062")
